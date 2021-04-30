@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/league_home_nav"
+    app:startDestination="@id/navigation_league_home">
+
+    <fragment
+        android:id="@+id/navigation_league_home"
+        android:name="com.example.lab8.ui.leaguehome.LeagueHomeFragment"
+        android:label="@string/title_league_home"
+        tools:layout="@layout/fragment_leaguehome" />
+
+    <fragment
+        android:id="@+id/navigation_team"
+        android:name="com.example.lab8.ui.team.TeamFragment"
+        android:label="@string/title_team"
+        tools:layout="@layout/fragment_team" />
+
+    <fragment
+        android:id="@+id/navigation_standings"
+        android:name="com.example.lab8.ui.standings.StandingsFragment"
+        android:label="@string/title_standings"
+        tools:layout="@layout/fragment_standings" />
+
+    <fragment
+        android:id="@+id/navigation_messageboard"
+        android:name="com.example.lab8.ui.messageboard.MessageBoardFragment"
+        android:label="@string/title_messageboard"
+        tools:layout="@layout/fragment_messageboard" />
+
+</navigation>
